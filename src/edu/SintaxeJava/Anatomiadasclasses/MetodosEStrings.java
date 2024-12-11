@@ -1,5 +1,5 @@
 package edu.SintaxeJava.Anatomiadasclasses;
-public class Anatomia3{
+public class MetodosEStrings {
 
     public static void main (String [] args) {
         String meuNome = "Henrique";

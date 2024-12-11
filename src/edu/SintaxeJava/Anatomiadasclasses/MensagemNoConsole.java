@@ -1,6 +1,6 @@
 package edu.SintaxeJava.Anatomiadasclasses;
 
-public class Anatomia1{
+public class MensagemNoConsole{
 
     public static void main (String [] args) {
 

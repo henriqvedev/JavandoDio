@@ -1,6 +1,6 @@
 package edu.SintaxeJava.Anatomiadasclasses;
 
-public class Anatomia2 {
+public class VariaveisEConstantes {
 
     public static void main (String [] args) {
 
