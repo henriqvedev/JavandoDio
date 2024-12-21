@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Calculadora","h":"class edu.SintaxeJava.JavaDoc.OutroExemploDeJavaDoc","d":"Section","u":"edu/SintaxeJava/JavaDoc/OutroExemploDeJavaDoc.html#calculadora-heading"}];updateSearchResults();
