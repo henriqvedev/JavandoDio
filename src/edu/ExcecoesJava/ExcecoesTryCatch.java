@@ -8,7 +8,7 @@ import java.util.Locale;
 // Corrigido para 'Locale' (a classe precisa da primeira letra maiúscula).
 
 import java.util.Scanner;
-// Classe utilizada para capturar entrada do usuário.
+// Classe utilizada para capturar entrada do usuario.
 
 public class ExcecoesTryCatch {
     public static void main(String[] args) {
