@@ -1,44 +1,27 @@
 package VisibilidadeDosRecursos.Lanchonete;
 
-public class Estacionamento {
+import VisibilidadeDosRecursos.Lanchonete.area.cliente.Cliente;
+import VisibilidadeDosRecursos.Lanchonete.atendimento.Atendente;
+import VisibilidadeDosRecursos.Lanchonete.atendimento.cozinha.Cozinheiro;
+
+public class Estabelecimento {
     public static void main (String[] args){
+
+        // Criação de objeto Cozinheiro e execução de métodos públicos para preparar e adicionar produtos no balcão.
         Cozinheiro cozinheiro = new Cozinheiro();
-
-        //acoes que nao precisam estarem disponiveis para toda a aplicacao
-        cozinheiro.lavarIngredientes();
-        cozinheiro.baterVitaminaLiquidificador();
-        cozinheiro.selecionarIngredientesVitamina();
-        cozinheiro.prepararLanche();
-        cozinheiro.prepararVitamina();
-        cozinheiro.prepararVitamina();
-
-        //acoes que estabelecimento precisa saber
         cozinheiro.adicionarSucoNoBalcao();
         cozinheiro.adicionarLancheNoBalcao();
         cozinheiro.adicionarComboNoBalcao();
 
-
-        //acoes que nao precisam estar disponiveis para toda a aplicacao
-        Almoxarife almoxarife = new Almoxarife();
-        almoxarife.controlarEntrada();
-        almoxarife.controlarSaida();
-
-        //acao que somente o seu pacote cozinha precisa conhecer (default)
-        almoxarife.entregarIngredientes();
-        almoxarife.trocarGas();
-
+        // Criação de objeto Atendente e execução de métodos públicos para atendimento.
         Atendente atendente = new Atendente();
-        atendente.pegarLancheCozinha();
         atendente.receberPagamento();
         atendente.servindoMesa();
-        //acao que somente o pessoal da cozinha precisa conhecer (default)
-        atendente.trocarGas();
 
+        // Criação de objeto Cliente e execução de métodos públicos para interagir com a lanchonete.
         Cliente cliente = new Cliente();
         cliente.escolherLanche();
         cliente.fazerPedido();
         cliente.pagarConta();
-
-
     }
 }
