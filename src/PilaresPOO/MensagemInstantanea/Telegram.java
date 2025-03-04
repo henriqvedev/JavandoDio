@@ -1,0 +1,10 @@
+package PilaresPOO.MensagemInstantanea;
+
+public class Telegram extends ServicoMensagemInstantanea{
+    public void enviarMensagem(){
+        System.out.println("Enviando mensagem pelo telegram");
+    }
+    public void receberMensagem(){
+        System.out.println("Recebendo mensagem pelo telegram");
+    }
+}
