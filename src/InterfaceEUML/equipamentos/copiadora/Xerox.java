@@ -1,4 +1,7 @@
-package InterfaceEUML;
+package InterfaceEUML.equipamentos.copiadora;
 
-public class Xerox extends Copiadora{
+public class Xerox implements Copiadora {
+    public void copiar (){
+        System.out.println("COPIANDO");
+    }
 }

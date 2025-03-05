@@ -1,4 +1,7 @@
-package InterfaceEUML;
+package InterfaceEUML.equipamentos.impressora;
 
-public class Laserjet {
+public class Laserjet implements Impressora {
+    public void imprimir(){
+        System.out.println("IMPRIMINDO LASERJET");
+    }
 }

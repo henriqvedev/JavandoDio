@@ -1,4 +1,20 @@
-package InterfaceEUML;
+package InterfaceEUML.equipamentos.multifuncional;
 
-public class Multifuncional {
+import InterfaceEUML.equipamentos.copiadora.Copiadora;
+import InterfaceEUML.equipamentos.digitalizadora.Digitalizadora;
+import InterfaceEUML.equipamentos.impressora.Impressora;
+
+public class Multifuncional implements Copiadora, Digitalizadora, Impressora {
+    public void copiar(){
+        System.out.println("COPIANDO VIA EQUIPAMENTO MULTIFUNCIONAL");
+    }
+
+    public void digitalizar(){
+        System.out.println("DIGITALIZANDO VIA EQUIPAMENTO MULTIFUNCIONAL");
+    }
+
+    @Override
+    public void imprimir() {
+        System.out.println("IMPRIMINDO VIA EQUIPAMENTO MULTIFUNCIONAL");
+    }
 }

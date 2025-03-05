@@ -1,7 +1,5 @@
-package InterfaceEUML;
+package InterfaceEUML.equipamentos.impressora;
 
-public class Impressora {
-    public void imprimir() {
-        System.out.println("IMPRIMINDO");
-    }
+public interface Impressora {
+    public void imprimir();
 }
